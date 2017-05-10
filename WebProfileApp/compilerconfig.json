@@ -1,0 +1,18 @@
+﻿[
+  {
+    "outputFile": "www/styles/index.css",
+    "inputFile": "www/styles/index.scss"
+  },
+  {
+    "outputFile": "app/app.component.css",
+    "inputFile": "app/app.component.scss"
+  },
+  {
+    "outputFile": "styles/index.css",
+    "inputFile": "styles/index.scss"
+  },
+  {
+    "outputFile": "app/home.component.css",
+    "inputFile": "app/home.component.scss"
+  }
+]

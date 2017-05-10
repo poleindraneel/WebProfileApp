@@ -1,0 +1,11 @@
+﻿body {
+  /*background-image: url(../assets/backgroundLight.png);*/
+  background-image: url(../assets/UnderConstruction.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #1c232a !important; }
+
+img {
+  opacity: 0.2; }
+
