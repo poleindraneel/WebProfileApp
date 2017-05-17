@@ -1,10 +1,15 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
+﻿<h1 class="home-text">
+    Indraneel Pole
+</h1>
+<h2 class="home-text">
+    Software Developer, Blogger, Speaker, Community Lead
+</h2>
 
-</body>
-</html>
+<kb-page-slider>
+    <div *kbPages="let page of pages" class="home-image-div" [style.background]="page.color">
+        <img width="400" height="400" src="{{page.src}}"/>
+    </div>
+</kb-page-slider>
+<div class="home-image-div">
+    <img width="400" height="400" src="../assets/photos/main.jpg" />
+</div>

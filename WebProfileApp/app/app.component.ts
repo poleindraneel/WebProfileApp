@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, NgModule } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
     selector: 'ip-app',
@@ -7,6 +8,10 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['app.component.css']
 })
 export class AppComponent implements OnInit {
+
+    //constructor(private route: ActivatedRoute) {
+
+    //}
 
     ngOnInit(): void {
     }

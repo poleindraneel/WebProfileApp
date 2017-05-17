@@ -1,1 +1,12 @@
-﻿
+﻿.home-text {
+    color: white;
+    text-align: center;
+}
+
+.home-image-div {
+    text-align: center;
+}
+
+    .home-image-div img {
+        opacity: 1;
+    }

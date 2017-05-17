@@ -25,7 +25,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <ApplicationInsightsResourceId />
-    <TypeScriptToolsVersion>2.1</TypeScriptToolsVersion>
+    <TypeScriptToolsVersion>2.2</TypeScriptToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -107,11 +107,14 @@
     </Content>
     <Content Include="assets\backgroundDark.png" />
     <Content Include="assets\backgroundLight.png" />
-    <Content Include="assets\UnderConstruction.png" />
+    <Content Include="assets\photos\main.jpg" />
+    <Content Include="assets\photos\presentation.jpg" />
     <Content Include="favicon.ico" />
+    <Content Include="assets\UnderConstruction.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Connected Services\Application Insights\ConnectedService.json" />
     <Content Include="styles\bootstrap.min.css" />
